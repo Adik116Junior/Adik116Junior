@@ -1,0 +1,69 @@
+body {
+    background-image: url('fotka.jpg');
+    animation: fadeIn 1s ease-out;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(72, 7, 92);
+    color: white;
+    position: fixed;
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+        transform: translateY(20px); 
+    }
+    to {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+.Umiejętności, .o-mnie, .tresc, .tytul, .kontakt {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.Umiejętności {
+    font-size: 24px;
+    color: white;
+}
+
+a {
+    color: rgb(8, 247, 8);
+}
+
+.o-mnie {
+    text-align: right;
+    color: white;
+    font-size: 1.5em;
+}
+
+.tresc {
+    font-size: 1.5em;
+}
+
+.tytul {
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+.kontakt {
+    height: 25px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0; 
+}
+  

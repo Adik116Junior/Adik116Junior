@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Adrian Indycki">
+    <meta name="keywords" content="HTML, CSS, JS">
+    <meta name="description" content="Portfolio">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Adrian Indycki<br>
+    Web Developer</h1>
+   
+    <div class="o-mnie">
+        <div class="tytul">O mnie</div>
+        <div class="tresc">Nazywam się Adrian,<br> chodzę do ZSL w Leżajsku gdzie uczę się skomplikowanych rzeczy dzięki,<br> którym staję się co raz lepszy.<br> Lubię wyzwania,<br>programowanie i tworzenie stron.</div>
+    </div>
+    <div class="Umiejętności"> <p>Umiejętności</p>  
+        <p><a href="csharp.html">C#</a><br> <a href="cpp.html">C++</a><br><a href="elka.html">HTML</a><br><a href="css.html">CSS<br></a><a href="js.html">JavaScript</a></p>
+    </div>
+    <div class="kontakt">Kontakt: <a href="mailto:adixindycki@gmail.com">adixindycki@gmail.com</a></div>
+    <script>
+        function placeContactAtBottom() {
+            var kontaktElement = document.querySelector('.kontakt');
+            var bodyHeight = document.body.clientHeight;
+            var kontaktHeight = kontaktElement.offsetHeight;
+            var windowHeight = window.innerHeight;
+        
+            
+            var distanceFromTop = windowHeight - (bodyHeight - kontaktElement.offsetTop + kontaktHeight);
+        
+            
+            kontaktElement.style.top = distanceFromTop + 'px';
+        }
+        
+        
+        window.onload = placeContactAtBottom;
+        window.onresize = placeContactAtBottom;
+        </script>
+
+   
+</body>  
+</html>

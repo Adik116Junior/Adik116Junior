@@ -1,0 +1,26 @@
+.csharp {
+    font-family: Arial;
+    font-size: 45px;
+    text-align: center;
+    color:white;
+    background-color: purple;
+    animation: fadeIn 1s ease-out;
+}
+body{
+    background-image:url(csharp.jpg);
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+        transform: translateY(20px); 
+    }
+    to {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+h1{
+    color: rgb(0, 247, 234);
+    animation:fadeIn 1s ease-out;
+    background-color: black;
+}

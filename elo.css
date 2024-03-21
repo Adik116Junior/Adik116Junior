@@ -1,0 +1,25 @@
+body{
+    background-image: url(css.jpg);
+    animation: fadeIn 1s ease-out;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+        transform: translateY(20px); 
+    }
+    to {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+.opis{
+    color: white;
+    background-color:black;
+    text-align: center;
+}
+.tytuł{
+    font-size: 50px;
+}
+.tresc{
+    font-size:20px;
+}
