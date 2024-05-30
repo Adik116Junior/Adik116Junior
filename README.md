@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Adik116Junior
 - 👀 I’m interested in learning programming 
-- 🌱 I’m currently learning C#
+- 🌱 I’m currently learning Python
 - 📫 You can reach me on my Discord  It is adik116 or write email  to me adixindycki@gmail.com
 
 <!---
